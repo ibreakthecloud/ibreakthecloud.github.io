@@ -53,4 +53,13 @@ export const ProjectData=[
         github:"https://github.com/ibreakthecloud/iops-plugin",
         image:"",
     },
+    {
+        id:7,
+        title:"Enigmail",
+        about: "A Single Page Application, an emailing client made using PHP and AngularJS.",
+        tags:["ReactJS", "Javascript", "Firebase", "Portfolio"],
+        demo:"",
+        github:"https://github.com/ibreakthecloud/Enigmail",
+        image:"",
+    },
 ];

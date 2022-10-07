@@ -10,26 +10,26 @@ import Recommendation from "./recommendation";
 
 function Body() {
   return (
-  <div className="body">
-    <section id="about">
-      <About />
-    </section>
-    <section id="projects">
-      <Projects />
-    </section>
-    <section id="skills">
-      <Skills />
-    </section>
-    <section id="work">
-      <Work />
-    </section>
-    {/* <section id="work">
+    <div className="body">
+      <section id="about">
+        <About />
+      </section>
+      <section id="work">
+        <Work />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      {/* <section id="work">
       <Recommendation/>
     </section> */}
-    <section id="contact">
-      <Contact />
-    </section>
-  </div>
+      <section id="contact">
+        <Contact />
+      </section>
+    </div>
   );
 }
 

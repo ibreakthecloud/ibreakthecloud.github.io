@@ -95,6 +95,11 @@
         rgb(201, 58, 128) 85%, rgb(213, 58, 157) 100%) top/100% 2px,
       linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px;
     background-repeat:no-repeat;
+    transition: background-color 2s ease-out 100ms
+  }
+
+  .button:hover {
+    background-repeat: repeat;
   }
 
 .card {
